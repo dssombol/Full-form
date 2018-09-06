@@ -9,7 +9,8 @@ import { AdminComponent } from './components/admin/admin.component';
 import { LoginComponent } from './components/user/login/login.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { HttpClientModule} from '@angular/common/http';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './components/footer/footer.component'
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms'
     AdminComponent,
     LoginComponent,
     CarouselComponent,
+    FooterComponent,
 
   ],
   imports: [
